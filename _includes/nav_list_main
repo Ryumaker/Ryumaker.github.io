@@ -36,8 +36,8 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "Dynamic" %}
-                        <li><a href="/categories/Dynamic" class="">Dynamic Programming ({{category[1].size}})</a></li>
+                    {% if category[0] == "dynamic" %}
+                        <li><a href="/categories/dynamic" class="">Dynamic Programming ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
@@ -46,8 +46,8 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "Greedy" %}
-                        <li><a href="/categories/Greedy" class="">Greedy ({{category[1].size}})</a></li>
+                    {% if category[0] == "greedy" %}
+                        <li><a href="/categories/greedy" class="">Greedy ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
