@@ -51,8 +51,8 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "Mathematics" %}
-                        <li><a href="/categories/Mathematics" class="">Mathematics ({{category[1].size}})</a></li>
+                    {% if category[0] == "mathematics" %}
+                        <li><a href="/categories/mathematics" class="">Mathematics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
