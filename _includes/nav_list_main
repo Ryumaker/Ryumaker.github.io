@@ -62,7 +62,7 @@
                 {% endfor %}
                 {% for category in site.categories %}
                     {% if category[0] == "string" %}
-                        <li><a href="/categories/string" class="">String ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#string" class="">String ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}

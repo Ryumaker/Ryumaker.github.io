@@ -1,7 +1,7 @@
 ---
 title: "백준 알고리즘 문제풀이"
 layout: archive
-permalink: categories/string
+permalink: categories/#string
 author_profile: true
 sidebar_main: true
 ---
