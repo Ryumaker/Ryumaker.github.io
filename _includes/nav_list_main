@@ -66,6 +66,11 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
+                    {% if category[0] == "stack" %}
+                        <li><a href="/categories/stack" class="">Stack ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
                     {% if category[0] == "Tree" %}
                         <li><a href="/categories/Tree" class="">Tree ({{category[1].size}})</a></li>
                     {% endif %}
