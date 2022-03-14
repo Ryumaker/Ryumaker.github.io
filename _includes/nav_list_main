@@ -11,28 +11,28 @@
         <span class="nav__sub-title">BaekJoon_Study</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "BFS" %}
-                        <li><a href="/categories/BFS" class="">BFS ({{category[1].size}})</a></li>
+                    {% if category[0] == "bfs" %}
+                        <li><a href="/categories/bfs" class="">BFS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "BinarySearch" %}
-                        <li><a href="/categories/BinarySearch" class="">Binary Search ({{category[1].size}})</a></li>
+                    {% if category[0] == "binarysearch" %}
+                        <li><a href="/categories/binarysearch" class="">Binary Search ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "BruteForce" %}
-                        <li><a href="/categories/BruteForce" class="">Brute Force ({{category[1].size}})</a></li>
+                    {% if category[0] == "bruteforce" %}
+                        <li><a href="/categories/bruteforce" class="">Brute Force ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "DFS" %}
-                        <li><a href="/categories/DFS" class="">DFS ({{category[1].size}})</a></li>
+                    {% if category[0] == "dfs" %}
+                        <li><a href="/categories/dfs" class="">DFS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "DivideAndConquer" %}
-                        <li><a href="/categories/DivideAndConquer" class="">Divide And Conquer ({{category[1].size}})</a></li>
+                    {% if category[0] == "divideandconquer" %}
+                        <li><a href="/categories/divideandconquer" class="">Divide And Conquer ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
@@ -41,8 +41,8 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "Graph" %}
-                        <li><a href="/categories/Graph" class="">Graph ({{category[1].size}})</a></li>
+                    {% if category[0] == "graph" %}
+                        <li><a href="/categories/graph" class="">Graph ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
@@ -56,8 +56,8 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "Sort" %}
-                        <li><a href="/categories/Sort" class="">Sorting ({{category[1].size}})</a></li>
+                    {% if category[0] == "sort" %}
+                        <li><a href="/categories/sort" class="">Sort ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
@@ -71,8 +71,8 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
-                    {% if category[0] == "Tree" %}
-                        <li><a href="/categories/Tree" class="">Tree ({{category[1].size}})</a></li>
+                    {% if category[0] == "tree" %}
+                        <li><a href="/categories/tree" class="">Tree ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

@@ -1,5 +1,5 @@
 ---
-title: "백준 알고리즘 문제풀이"
+title: "백준 알고리즘 문제풀이 - Dynamic Programming"
 layout: archive
 permalink: categories/dynamic
 author_profile: true

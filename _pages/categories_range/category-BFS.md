@@ -1,11 +1,11 @@
 ---
-title: "백준 알고리즘 문제풀이"
+title: "백준 알고리즘 문제풀이 - BFS"
 layout: archive
-permalink: categories/BFS
+permalink: categories/bfs
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.BFS %}
+{% assign posts = site.categories.bfs %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

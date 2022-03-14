@@ -1,5 +1,5 @@
 ---
-title: "백준 알고리즘 문제풀이"
+title: "백준 알고리즘 문제풀이 - Greedy Algorithm"
 layout: archive
 permalink: categories/greedy
 author_profile: true

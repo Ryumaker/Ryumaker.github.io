@@ -1,5 +1,5 @@
 ---
-title: "백준 알고리즘 문제풀이"
+title: "백준 알고리즘 문제풀이 - Stack"
 layout: archive
 permalink: categories/stack
 author_profile: true
