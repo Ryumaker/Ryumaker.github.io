@@ -11,4 +11,6 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Algorithm"
-    url: /categories/
+    url: /categories/bfs/
+  - title: "Posts By Year"
+    url: /year-archive/
