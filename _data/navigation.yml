@@ -10,7 +10,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Algorithm"
-    url: /categories/
+  - title: "Tags"
+    url: /tags/
   - title: "Posts By Year"
     url: /year-archive/
