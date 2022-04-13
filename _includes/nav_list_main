@@ -51,6 +51,11 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
+                    {% if category[0] == "hashing" %}
+                        <li><a href="/categories/hashing" class="">Hashing ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
                     {% if category[0] == "mathematics" %}
                         <li><a href="/categories/mathematics" class="">Mathematics ({{category[1].size}})</a></li>
                     {% endif %}
