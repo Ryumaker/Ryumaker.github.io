@@ -80,6 +80,11 @@
                         <li><a href="/categories/tree" class="">Tree ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "prefixsum" %}
+                        <li><a href="/categories/prefixsum" class="">Prefix Sum ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
       </li>
   </ul>
