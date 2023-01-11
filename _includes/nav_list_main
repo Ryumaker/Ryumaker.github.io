@@ -8,7 +8,7 @@
             📂 전체 글 수 {{sum}}개 
       </li>
       <li>
-        <span class="nav__sub-title">BaekJoon_Study</span>
+        <span class="nav__sub-title">&#x1F4D6 BaekJoon Study</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "bfs" %}
@@ -83,6 +83,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "prefixsum" %}
                         <li><a href="/categories/prefixsum" class="">Prefix Sum ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+         <span class="nav__sub-title">&#x2753 Tell Me Why</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "knowledges" %}
+                        <li><a href="/categories/knowledges" class="">Knowledges ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
