@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Ryumaker"
-  avatar           : "/assets/heart_for_you.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/heart_for_you.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Everyday Together!"
   location         : "Republic of Korea"
   email            : 

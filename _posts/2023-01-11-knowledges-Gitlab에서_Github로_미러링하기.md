@@ -6,7 +6,7 @@ categories:
 tags:
 - Git
 toc: true
-toc_sticky: true
+toc_sticky: false
 date: 2023-01-11
 last_modified_at: 2023-01-11
 ---
@@ -15,6 +15,8 @@ last_modified_at: 2023-01-11
 
 Gitlab에서 작업한 결과물을 Github로 옮겨와야 하는 경우가 종종 발생합니다.  
 이때, 커밋 로그를 유지하며 옮겨오는 하나의 방법은 다음과 같습니다.  
+
+## 옮기는 방법
 
 1. Github로 옮길 원본 repo의 주소를 clone합니다.  
 ```
