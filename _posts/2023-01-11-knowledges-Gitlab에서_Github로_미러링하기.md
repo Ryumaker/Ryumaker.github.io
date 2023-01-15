@@ -6,7 +6,7 @@ categories:
 tags:
 - Git
 toc: true
-toc_sticky: false
+toc_sticky: true
 date: 2023-01-11
 last_modified_at: 2023-01-11
 ---
