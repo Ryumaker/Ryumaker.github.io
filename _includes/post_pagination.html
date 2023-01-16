@@ -1,12 +1,12 @@
 {% if page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"><span style="color:#FFD700">이전 글   &nbsp</span>{{ page.previous.title | default: "Previous" }}</a>
+      <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"><span style="color:#FFD700">이전 글 </span>{{ page.previous.title | default: "Previous" }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ "첫 번째 글입니다." | default: "Previous" }}</a>
     {% endif %}
     {% if page.next %}
-      <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}"><span style="color:#FFD700">다음 글  &nbsp</span>{{ page.next.title | default: "Next" }}</a>
+      <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}"><span style="color:#FFD700">다음 글 </span>{{ page.next.title | default: "Next" }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ "가장 최근 글입니다." | default: "Next" }}</a>
     {% endif %}
