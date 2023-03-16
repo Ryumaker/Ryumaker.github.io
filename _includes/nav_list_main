@@ -109,6 +109,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "twopointer" %}
+                        <li><a href="/categories/twopointer" class="">Two Pointer ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "prefixsum" %}
                         <li><a href="/categories/prefixsum" class="">Prefix Sum ({{category[1].size}})</a></li>
                     {% endif %}
