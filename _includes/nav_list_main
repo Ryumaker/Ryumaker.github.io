@@ -8,6 +8,58 @@
             📂 전체 글 수 {{sum}}개 
       </li>
       <li>
+        <span class="nav__sub-title">&#x1F4DD Projects</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "projects" %}
+                        <li><a href="/categories/projects" class="">Project Solutions ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">&#x2753 Tell Me Why</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "knowledges" %}
+                        <li><a href="/categories/knowledges" class="">Knowledges ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "tips" %}
+                        <li><a href="/categories/tips" class="">Tips ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">&#x1F4BB CS</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "network" %}
+                        <li><a href="/categories/network" class="">Network ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "os" %}
+                        <li><a href="/categories/os" class="">OS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "database" %}
+                        <li><a href="/categories/database" class="">Database ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "linux" %}
+                        <li><a href="/categories/linux" class="">Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">&#x1F4D6 BaekJoon Study</span>
             <ul>
                 {% for category in site.categories %}
@@ -118,50 +170,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "prefixsum" %}
                         <li><a href="/categories/prefixsum" class="">Prefix Sum ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-         <span class="nav__sub-title">&#x2753 Tell Me Why</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "knowledges" %}
-                        <li><a href="/categories/knowledges" class="">Knowledges ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "tips" %}
-                        <li><a href="/categories/tips" class="">Tips ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">&#x1F4BB CS</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "network" %}
-                        <li><a href="/categories/network" class="">Network ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "os" %}
-                        <li><a href="/categories/os" class="">OS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "database" %}
-                        <li><a href="/categories/database" class="">Database ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "linux" %}
-                        <li><a href="/categories/linux" class="">Linux ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
